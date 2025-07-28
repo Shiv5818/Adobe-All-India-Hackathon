@@ -1,4 +1,4 @@
-FROM golang:1.24.4
+FROM --platform=linux/amd64 golang:1.24.4
 
 # Install poppler-utils for PDF text extraction
 RUN apt-get update && apt-get install -y poppler-utils

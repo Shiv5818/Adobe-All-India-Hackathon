@@ -69,15 +69,24 @@ func ExtractTitle(pages []string) string {
 	return "Untitled"
 }
 
-// IsProminent checks if a line looks like a title
+// IsProminent checks if a line looks like a title (supports multilingual)
 func IsProminent(line string) bool {
 	upperCount := 0
+	letterCount := 0
 	for _, r := range line {
-		if unicode.IsUpper(r) {
-			upperCount++
+		if unicode.IsLetter(r) {
+			letterCount++
+			if unicode.IsUpper(r) {
+				upperCount++
+			}
 		}
 	}
-	return upperCount > len(line)/2 || len(line) > 20
+	// For non-Latin scripts, rely on length and position
+	if letterCount == 0 {
+		return false
+	}
+	// Check for prominence based on uppercase ratio or length
+	return (letterCount > 0 && upperCount > letterCount/2) || len(line) > 20
 }
 
 // FindRepeatedText detects text that repeats across pages (e.g., headers)
@@ -107,7 +116,8 @@ func FindRepeatedText(pages []string) string {
 func ExtractOutline(pages []string) []OutlineEntry {
 	var outline []OutlineEntry
 	seen := make(map[string]bool)
-	reHeading := regexp.MustCompile(`^(Section|Chapter|Part|Appendix)\s+[A-Z\d]+|^[A-Z][A-Za-z\s\-\:]{5,}$`)
+	// Enhanced regex for better heading detection
+	reHeading := regexp.MustCompile(`^(Section|Chapter|Part|Appendix|Introduction|Conclusion|Abstract|Summary|References|Bibliography)\s+[A-Z\d]*|^[A-Z][A-Za-z\s\-\:\.\d]{3,}$|^\d+\.?\s+[A-Z][A-Za-z\s\-\:]{3,}|^[A-Z\s]{3,}$`)
 	for pageNum, page := range pages {
 		scanner := bufio.NewScanner(strings.NewReader(page))
 		prevIndent := 0
@@ -121,7 +131,7 @@ func ExtractOutline(pages []string) []OutlineEntry {
 				outline = append(outline, OutlineEntry{
 					Level: level,
 					Text:  CleanText(line),
-					Page:  pageNum,
+					Page:  pageNum + 1, // Convert to 1-based page numbering
 				})
 				seen[line] = true
 				prevIndent = CountIndent(line)
