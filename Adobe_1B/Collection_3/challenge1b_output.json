@@ -1,0 +1,452 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-28T19:19:46.013251"
+    },
+    "extracted_sections": [
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 15,
+            "importance_rank": 1
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 3,
+            "importance_rank": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 3,
+            "importance_rank": 3
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 14,
+            "importance_rank": 4
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 4,
+            "importance_rank": 5
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 12,
+            "importance_rank": 1
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 15,
+            "importance_rank": 2
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 3,
+            "importance_rank": 3
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 4,
+            "importance_rank": 4
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 13,
+            "importance_rank": 5
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 4,
+            "importance_rank": 1
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "Lemon wedges for serving",
+            "page_number": 10,
+            "importance_rank": 2
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 6,
+            "importance_rank": 3
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 14,
+            "importance_rank": 4
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 2,
+            "importance_rank": 5
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 7,
+            "importance_rank": 1
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 1,
+            "importance_rank": 2
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 8,
+            "importance_rank": 3
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 3,
+            "importance_rank": 4
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 2,
+            "importance_rank": 5
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 9,
+            "importance_rank": 1
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "Acaraj\u00e9",
+            "page_number": 2,
+            "importance_rank": 2
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "Agedashi Tofu",
+            "page_number": 2,
+            "importance_rank": 3
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "Aloo Gobi",
+            "page_number": 2,
+            "importance_rank": 4
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "Albondigas",
+            "page_number": 3,
+            "importance_rank": 5
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 14,
+            "importance_rank": 1
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 15,
+            "importance_rank": 2
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 11,
+            "importance_rank": 3
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "Churros",
+            "page_number": 1,
+            "importance_rank": 4
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "Coconut Rice",
+            "page_number": 1,
+            "importance_rank": 5
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 10,
+            "importance_rank": 1
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "section_title": "Horta",
+            "page_number": 1,
+            "importance_rank": 2
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "section_title": "Hummus",
+            "page_number": 2,
+            "importance_rank": 3
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "section_title": "Japchae",
+            "page_number": 2,
+            "importance_rank": 4
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "section_title": "Jerk Vegetables",
+            "page_number": 2,
+            "importance_rank": 5
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 13,
+            "importance_rank": 1
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 10,
+            "importance_rank": 2
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 13,
+            "importance_rank": 3
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "Instructions:",
+            "page_number": 4,
+            "importance_rank": 4
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "Pan con Tomate",
+            "page_number": 1,
+            "importance_rank": 5
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 13,
+            "importance_rank": 1
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 15,
+            "importance_rank": 2
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 4,
+            "importance_rank": 3
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 3,
+            "importance_rank": 4
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "Ingredients:",
+            "page_number": 7,
+            "importance_rank": 5
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 \u2022 \u2022 \u2022 1 cup dates, pitted 1 cup mixed nuts 1/4 cup dried fruit 1 tablespoon honey",
+            "page_number": 15
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 2 large eggs \u2022 1/4 cup shredded cheese",
+            "page_number": 3
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "1 banana 1/2 cup frozen berries 1/2 cup Greek yogurt 1/4 cup milk \u2022 \u2022 \u2022 \u2022 \u2022 Toppings: granola, fresh fruit, nuts, seeds",
+            "page_number": 3
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 \u2022 \u2022 1 cup Greek yogurt 1 tablespoon honey 1/4 cup mixed nuts",
+            "page_number": 14
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "1 cup rolled oats \u2022 \u2022 2 cups water or milk 1/4 teaspoon salt \u2022 \u2022 Toppings: fresh fruit, nuts, honey, cinnamon",
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\u2022 1 pound lamb, cubed \u2022 1 small onion, diced \u2022 2 cloves garlic, minced",
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\u2022 1 eggplant, diced \u2022 1 zucchini, diced \u2022 1 bell pepper, diced \u2022 1 small onion, diced \u2022 2 cloves garlic, minced \u2022 4 tomatoes, diced",
+            "page_number": 15
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\u2022 4 boneless, skinless chicken thighs \u2022 1/4 cup soy sauce \u2022 1/4 cup mirin \u2022 2 tablespoons sugar \u2022 1 tablespoon sake \u2022 1 teaspoon grated ginger \u2022 1 teaspoon minced garlic \u2022 1 tablespoon vegetable oil \u2022 Cooked rice for serving",
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\u2022 1 pound ground beef \u2022 1 small onion, diced \u2022 2 cloves garlic, minced \u2022 1 packet taco seasoning \u2022 1/2 cup water \u2022 Taco shells or tortillas",
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\u2022 4 salmon fillets \u2022 1 lemon, sliced \u2022 2 cloves garlic, minced \u2022 1/4 cup olive oil \u2022 1 tablespoon fresh dill, chopped \u2022 1 tablespoon fresh parsley, chopped \u2022 Salt and pepper to taste",
+            "page_number": 13
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\u2022 1 pound ground turkey \u2022 1 small onion, diced \u2022 2 cloves garlic, minced \u2022 1/4 cup breadcrumbs \u2022 1 egg, beaten",
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\u2022 4 zucchinis, spiralized into noodles",
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\u2022 4 veal shanks \u2022 1 small onion, diced \u2022 2 cloves garlic, minced \u2022 1 cup white wine",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\u2022 4 bell peppers, tops cut off and seeds removed \u2022 1 pound ground beef \u2022 1 small onion, diced \u2022 2 cloves garlic, minced \u2022 1 cup cooked rice \u2022 1 can (14.5 ounces) diced tomatoes",
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "\u2022 2 pounds pork shoulder \u2022 1 small onion, sliced \u2022 2 cloves garlic, minced",
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "\u2022 4 pork cutlets \u2022 1/2 cup flour \u2022 2 eggs, beaten \u2022 1 cup breadcrumbs \u2022 1/4 cup vegetable oil \u2022 1 lemon, sliced \u2022 Salt and pepper to taste",
+            "page_number": 1
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "\u2022 4 boneless, skinless chicken breasts \u2022 1/2 cup spinach, chopped \u2022 1/2 cup feta cheese, crumbled \u2022 1/4 cup sun-dried tomatoes, chopped \u2022 2 cloves garlic, minced \u2022 2 tablespoons olive oil \u2022 Salt and pepper to taste",
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "\u2022 1 beef roast (3-4 pounds) \u2022 2 cloves garlic, minced \u2022 1 tablespoon fresh rosemary, chopped \u2022 1 tablespoon fresh thyme, chopped \u2022 1/4 cup olive oil \u2022 Salt and pepper to taste",
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "\u2022 4 cups chicken broth \u2022 1/4 cup soy sauce \u2022 2 tablespoons miso paste \u2022 2 cloves garlic, minced \u2022 1 piece ginger, sliced \u2022 1/2 pound pork belly, sliced \u2022 4 eggs, soft-boiled \u2022 8 ounces ramen noodles \u2022 Sliced green onions, nori, and sesame seeds for garnish",
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o 3 avocados o 1 lime",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o 1 cup lentils o 1/2 cup chickpeas o 1 small onion",
+            "page_number": 15
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o 2 cups cassava flour o 4 cups water \u2022",
+            "page_number": 11
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "o 1 onion o 2 carrots o 2 celery stalks o 2 cloves garlic o 1 zucchini",
+            "page_number": 10
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o 1 head cabbage o 1 tablespoon sea salt o 1 teaspoon caraway seeds \u2022",
+            "page_number": 13
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o 1 head red cabbage o 1 small onion o 1 apple",
+            "page_number": 10
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o 1 small onion o 2 cloves garlic o 1 bell pepper",
+            "page_number": 13
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o Bring water and salt to a boil. o Gradually whisk in cornmeal. o Reduce heat and cook, stirring constantly, until thickened (about 30 minutes).",
+            "page_number": 4
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 \u2022 1 whole wheat tortilla 1/2 cup chickpeas, mashed",
+            "page_number": 13
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 \u2022 \u2022 \u2022 \u2022 \u2022 1 whole wheat tortilla 1/2 cup cooked lentils 1/4 cup bell pepper, sliced 1/4 cup cucumber, diced 1/4 cup shredded carrots 1 tablespoon hummus",
+            "page_number": 15
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 \u2022 \u2022 \u2022 1 whole wheat tortilla 1/2 cup hummus 1/2 cup cucumber, sliced 1/2 cup bell pepper, sliced",
+            "page_number": 4
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 \u2022 \u2022 \u2022 \u2022 \u2022 1 whole wheat pita bread 1/2 cup hummus 1/2 cup cucumber, sliced 1/2 cup bell pepper, sliced 1/4 cup shredded carrots 1/4 cup baby spinach",
+            "page_number": 3
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 \u2022 \u2022 1 can black beans, drained and rinsed 1 cup corn kernels (fresh or canned) 1/2 cup cherry tomatoes, halved",
+            "page_number": 7
+        }
+    ]
+}
